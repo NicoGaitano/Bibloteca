@@ -1,0 +1,113 @@
+body {
+  background: #0e101c;
+}
+
+nav,
+.button,
+footer {
+  background: #ec5990;
+
+  ul {
+    list-style: none;
+    display: inline-block;
+    padding: 18px;
+    li {
+      float: left;
+      margin-top: 20px;
+      a {
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 18px;
+      }
+    }
+  }
+}
+
+nav,
+.titulos,
+.imagen-contain,
+sidebar,
+.list-group,
+.titulo-imagen,
+p,
+h1,
+.contenedor-book,
+.details-book,
+.title-Orders,
+label,
+form,
+.message-error,
+footer {
+  text-align: center;
+}
+.imagen {
+  width: 60%;
+}
+.imagen-contain{
+  margin: auto;
+  display: block;
+}
+.portada-imagen {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.contenedor-book {
+  margin: 1%;
+}
+.autor-book,
+.category-book {
+  list-style: none;
+}
+form {
+  width: 200px;
+  margin: 0 auto;
+  padding: 7%;
+}
+form > * {
+  box-sizing: border-box;
+}
+
+.field,
+.button {
+  margin: 10%;
+  padding: 2%;
+}
+
+.message-error {
+  color: rgb(190, 18, 18);
+}
+
+a,
+h1,
+h2,
+p,
+label,
+li,
+.button,
+footer {
+  color: white;
+}
+footer {
+  left: 0;
+  bottom: 0;
+  padding: 2%;
+
+}
+@media (max-width: 850px) {
+  .portada-imagen {
+    display: initial;
+  }
+  .imagen-figure{
+    width: 75%;
+  }
+
+  header,
+  figure,
+  aside {
+    padding: 5%;
+  }
+  form {
+    padding: 4%;
+  }
+}
